@@ -19,6 +19,5 @@
         "psr-0": {
             "Boutique\\Storage": "src/"
         }
-    },
-    "target-dir": "Boutique/Storage"
+    }
 }
