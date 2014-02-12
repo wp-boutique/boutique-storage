@@ -5,6 +5,14 @@ use Boutique\Storage\Interfaces\StorageInterface;
 class SessionStorage implements StorageInterface {
 
     /**
+     * Start the session
+     */
+    public function __construct()
+    {
+        session_start();
+    }
+
+    /**
      * Flush the session
      * @return void
      */
